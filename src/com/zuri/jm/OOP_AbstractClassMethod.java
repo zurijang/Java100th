@@ -12,6 +12,7 @@ abstract class Animal {
 }
 
 class Dog extends Animal {
+    // cry 메서드를 재정의 하지 않으면 에러가 남 -> 추상 메서드를 재정의(오버라이딩)하지 않아서
     void cry() { System.out.println("멍 멍 멍!");}
 }
 
@@ -22,6 +23,7 @@ class Cat extends Animal {
         System.out.println("먹다먹다먹다");
     }
 }
+
 
 class Animal2 {
     void fly() {
